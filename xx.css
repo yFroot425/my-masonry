@@ -1,0 +1,98 @@
+/* From twentyfifteen Style  */
+/*@import url('style2015.css');
+
+body {
+ background-color: #e9f2f9;
+ padding-top: 70px;
+}
+*/
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#masonry .entry-header, 
+#masonry .entry-content
+{
+  padding: 0;
+}
+
+.entry-footer {
+  padding: 10px;
+}
+#masonry .entry-footer {
+  padding: 5px;
+}
+
+
+/****
+ Masonry
+***/
+.item_wrap {
+    padding: 5px;
+    margin: 5px;
+}
+
+.thumbnail {
+    border: 5px solid #ddd;
+}
+.star {
+    border: 5px solid #429bb2;
+}
+
+.item_wrap h2 {
+    font-size: 18px;
+} 
+
+.item_wrap p,
+.item_wrap footer {
+    font-size: 12px;
+}
+
+.item_wrap blockquote {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.item {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 4px #ccc;
+    padding: 10px;
+    vertical-align: top;
+}
+.item_photo {
+    margin-bottom: 10px;
+}
+.item dl {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.item dl dt {
+    clear: left;
+    float: left;
+}
+.item dl dd {
+    margin-left: 54px;
+    margin-bottom: 0px;
+}
+
+.item a {
+    color: #733;
+    text-decoration: none;
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: none;
+}
+.item-text {
+    color: #707070;
+    font-size: 12px;
+    font-family: "Lucida Grande",Arial,"Hiragino Kaku Gothic Pro",Meiryo,"メイリオ",sans-serif;
+}
+.small {
+    font-size: 10px;
+}
